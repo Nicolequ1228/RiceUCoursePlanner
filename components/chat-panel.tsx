@@ -36,24 +36,24 @@ export function ChatPanel({
 
   const exampleMessages = [
     {
-      heading: 'What are the',
-      subheading: 'trending memecoins today?',
-      message: `What are the trending memecoins today?`
+      heading: 'Course related:',
+      subheading: 'What is COMP 631 about?',
+      message: `What is COMP 631 about?`
     },
     {
-      heading: 'What is the price of',
-      subheading: '$DOGE right now?',
-      message: 'What is the price of $DOGE right now?'
+      heading: 'Course related:',
+      subheading: 'What is the prerequisite of COMP 631?',
+      message: 'What is the prerequisite of COMP 631?'
     },
     {
-      heading: 'I would like to buy',
-      subheading: '42 $DOGE',
-      message: `I would like to buy 42 $DOGE`
+      heading: 'Program related:',
+      subheading: 'Show me some AI related programs.',
+      message: `Show me some AI related programs.`
     },
     {
-      heading: 'What are some',
-      subheading: `recent events about $DOGE?`,
-      message: `What are some recent events about $DOGE?`
+      heading: 'Program related:',
+      subheading: `What are the requirements to obtain a MCS degree?`,
+      message: `What are the requirements to obtain a MCS degree?`
     }
   ]
 
