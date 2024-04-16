@@ -36,22 +36,22 @@ export function ChatPanel({
 
   const exampleMessages = [
     {
-      heading: 'Course related:',
+      heading: 'Course related 1:',
       subheading: 'What is COMP 631 about?',
       message: `What is COMP 631 about?`
     },
     {
-      heading: 'Course related:',
+      heading: 'Course related 2:',
       subheading: 'What is the prerequisite of COMP 631?',
       message: 'What is the prerequisite of COMP 631?'
     },
     {
-      heading: 'Program related:',
+      heading: 'Program related 1:',
       subheading: 'Show me some AI related programs.',
       message: `Show me some AI related programs.`
     },
     {
-      heading: 'Program related:',
+      heading: 'Program related 2:',
       subheading: `What are the requirements to obtain a MCS degree?`,
       message: `What are the requirements to obtain a MCS degree?`
     }
