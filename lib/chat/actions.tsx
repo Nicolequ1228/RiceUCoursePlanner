@@ -172,7 +172,7 @@ If the info does not mention, just say you need more information or ask the user
 }
 
 export type Message = {
-  role: 'user' | 'assistant' | 'system' | 'function'
+  role: 'user' | 'assistant' | 'system' | 'function'| 'data' | 'tool'
   content: string
   id: string
   name?: string
