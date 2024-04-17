@@ -91,7 +91,6 @@ You cannot reply to questions that are unrelated to courses and programs at Rice
                 // Messages inside [] means that it's a UI element. For example:
                 // - "[Prerequisite of COMP 631]" means that a network of the prerequisites of COMP 631 is shown to the user.
 
-                // If the user requests purchasing a stock, call \`show_stock_purchase_ui\` to show the purchase UI.
                 // If the user just wants the price, call \`show_stock_price\` to show the price.
             },
             // provide the context (chat history)
