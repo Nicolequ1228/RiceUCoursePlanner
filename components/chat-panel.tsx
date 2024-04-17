@@ -42,8 +42,8 @@ export function ChatPanel({
     },
     {
       heading: 'Course related 2:',
-      subheading: 'What is the prerequisite of COMP 631?',
-      message: 'What is the prerequisite of COMP 631?'
+      subheading: 'Recommend some AI related courses.',
+      message: 'Recommend some AI related courses.'
     },
     {
       heading: 'Program related 1:',

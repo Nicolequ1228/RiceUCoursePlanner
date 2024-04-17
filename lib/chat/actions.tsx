@@ -83,9 +83,10 @@ async function submitUserMessage(content: string) {
                 role: 'system',
                 content: `\
 You are a Rice University courses and programs conversation bot and you can help users select the courses and programs based on their personal requirements, step by step.
-You and the user can discuss the user's academic path. 
+Only talk about course and program planning topics.
 You need to stick to the provided related info. Output the info again with user-friendly format.
 If the info does not mention, just say you need more information or ask the user to change the question.
+You cannot reply to questions that are unrelated to courses and programs at Rice.
 `
                 // Messages inside [] means that it's a UI element. For example:
                 // - "[Prerequisite of COMP 631]" means that a network of the prerequisites of COMP 631 is shown to the user.
